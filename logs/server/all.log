@@ -1,0 +1,530 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T10:23:49.457Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T10:23:49.605Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T10:25:52.931Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T10:25:52.972Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T10:27:04.323Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T10:27:04.381Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '1' of null
+    at firstchar (D:\test\Basic_reg\demo-project\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (D:\test\Basic_reg\demo-project\node_modules\body-parser\lib\types\json.js:79:19)
+    at D:\test\Basic_reg\demo-project\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\test\Basic_reg\demo-project\node_modules\raw-body\index.js:224:16)
+    at done (D:\test\Basic_reg\demo-project\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\test\Basic_reg\demo-project\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-07T10:30:37.378Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '1' of null
+    at firstchar (D:\test\Basic_reg\demo-project\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (D:\test\Basic_reg\demo-project\node_modules\body-parser\lib\types\json.js:79:19)
+    at D:\test\Basic_reg\demo-project\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\test\Basic_reg\demo-project\node_modules\raw-body\index.js:224:16)
+    at done (D:\test\Basic_reg\demo-project\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\test\Basic_reg\demo-project\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-07T10:30:45.593Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\test\Basic_reg\demo-project\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T10:34:24.640Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\test\Basic_reg\demo-project\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T10:34:42.347Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\test\Basic_reg\demo-project\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T10:34:48.467Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T10:38:54.927Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T10:38:55.012Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:30:04.492Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.insertOne()` buffering timed out after 10000ms
+    at new MongooseError (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:30:33.989Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\test\\Basic_reg\\demo-project\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-02-07T11:30:34.500Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.insertOne()` buffering timed out after 10000ms
+    at new MongooseError (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:30:56.160Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.insertOne()` buffering timed out after 10000ms
+    at new MongooseError (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:31:26.132Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.insertOne()` buffering timed out after 10000ms
+    at new MongooseError (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:32:45.844Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.insertOne()` buffering timed out after 10000ms
+    at new MongooseError (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (D:\test\Basic_reg\demo-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:33:45.326Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:34:35.991Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:34:36.023Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: registration.users index: Email_1 dup key: { Email: "vishgirase1995@gmai.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:34:37.457Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\test\Basic_reg\demo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\test\Basic_reg\demo-project\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\test\Basic_reg\demo-project\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\test\Basic_reg\demo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:34:37.480Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/620103d587e623188ccc6d07 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:35:15.065Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:37:58.610Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:37:58.643Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:38:30.932Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:38:30.962Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:38:39.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:38:39.915Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:38:43.251Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:38:43.280Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:39:50.410Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:39:50.461Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:39:59.201Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:39:59.268Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:41:27.105Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:41:27.144Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:41:32.795Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:41:32.831Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:42:19.689Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:42:19.716Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:44:28.473Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:44:28.510Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:46:02.550Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:46:02.580Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:46:28.782Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:46:28.810Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:46:35.234Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:46:35.269Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:46:39.237Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:46:39.265Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:47:17.297Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:47:17.323Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:47:45.485Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:47:45.509Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T11:48:03.192Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:48:03.221Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:42:11.039Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:42:11.065Z"}
+error: 
+    status - 500 
+    message - Error: "LastName" is required
+    at new exports.ValidationError (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\test\Basic_reg\demo-project\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\test\Basic_reg\demo-project\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\test\Basic_reg\demo-project\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:42:25.724Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:43:39.957Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:43:39.987Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:44:01.441Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:44:01.474Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:44:12.401Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:44:12.426Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:44:32.296Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:44:32.323Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:44:52.272Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:44:52.296Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:45:37.049Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:45:37.082Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:45:44.746Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:45:44.769Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:46:03.807Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:46:11.909Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:46:56.195Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:46:56.221Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:47:02.717Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:47:03.672Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:47:04.474Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:47:04.646Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:47:04.840Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:47:43.268Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:47:43.296Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:47:57.732Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:47:57.761Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:48:06.267Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:48:06.297Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:48:19.037Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:48:19.064Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:48:19.639Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:48:19.780Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:49:11.469Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:49:11.496Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:49:11.905Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:50:09.270Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:50:09.302Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\test\Basic_reg\demo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\test\Basic_reg\demo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:54:29)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:50:10.054Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:50:34.114Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:50:34.140Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:51:03.664Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:51:03.689Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:51:19.463Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:51:19.493Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:52:11.802Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:52:11.830Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:52:29.704Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:52:29.730Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:52:38.056Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:52:38.087Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:52:44.265Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:52:44.290Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:53:05.273Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:53:05.313Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:53:17.893Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:53:17.921Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:54:05.029Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:54:05.066Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:54:32.699Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:54:32.742Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:57:23.610Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:57:23.654Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:58:35.359Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:58:35.412Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T12:59:04.791Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:59:04.872Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T13:01:11.650Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:01:11.677Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:09:14.636Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:09:14.717Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\test\Basic_reg\demo-project\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:57:25)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T14:09:15.630Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\test\Basic_reg\demo-project\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:57:25)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T14:09:20.590Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\test\Basic_reg\demo-project\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:57:25)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T14:09:22.150Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\test\Basic_reg\demo-project\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (D:\test\Basic_reg\demo-project\src\services\/user.service.js:57:25)
+    at tryCatch (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\test\Basic_reg\demo-project\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\test\Basic_reg\demo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T14:09:22.347Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:10:44.557Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:10:44.582Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:10:57.954Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:10:57.989Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:11:02.198Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:11:07.739Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:11:07.763Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:11:13.607Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:11:13.748Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:11:43.270Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:11:43.318Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:12:03.133Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:12:03.157Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:12:34.672Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:12:34.699Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:12:44.314Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:12:44.339Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:13:08.887Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:13:08.930Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-07T14:13:16.510Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T14:13:16.544Z"}
